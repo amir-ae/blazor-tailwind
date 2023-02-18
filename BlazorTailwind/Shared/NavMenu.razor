@@ -1,0 +1,34 @@
+﻿@*
+<div class=" flex justify-center">
+        <a class="inline-block pt-1 pb-1 mr-4 text-lg w-full h-full align-middle text-center text-white" href="">BlazorTailwind</a>
+    </div>
+    *@
+
+<div class="top-row ps-3 navbar flex items-center p-6">
+    <a class="navbar-brand text-white" href="">BlazorTailwind</a>
+  </div>
+<div>
+    <ul class="flex-col">
+        <li class="m-3">
+            <a class="w-full inline-block rounded hover:bg-[#30366C] active:bg-[#505986] py-1 px-3" href="#">
+                <NavLink class="grow nav-link text-[#D7D7D7] hover:text-white active:text-white" href="" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </a>
+        </li>
+        <li class="m-3">
+            <a class="w-full inline-block rounded hover:bg-[#30366C] active:bg-[#505986] py-1 px-3" href="#">
+                <NavLink class="nav-link text-[#D7D7D7] hover:text-white active:text-white" href="counter">
+                    <span class="oi oi-plus" aria-hidden="true"></span> Counter
+                </NavLink>
+            </a>
+        </li>
+        <li class="m-3">
+            <a class="w-full inline-block rounded hover:bg-[#30366C] active:bg-[#505986] py-1 px-3" href="#">
+                <NavLink class="nav-link text-[#D7D7D7] hover:text-white active:text-white" href="fetchdata">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                </NavLink>
+            </a>
+        </li>
+    </ul>
+</div>
